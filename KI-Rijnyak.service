@@ -1,0 +1,9 @@
+[Unit]
+Description=KI-Rijnyak Service
+
+[Service]
+ExecStart=/usr/bin/python3 /root/Rijnyak.py
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
